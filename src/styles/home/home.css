@@ -1,0 +1,78 @@
+.collage {
+  width: 100%;
+  max-width: 1400px;
+  max-height: 900px;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.collage-images {
+  width: 400%;
+  height: 800px;
+  display: flex;
+}
+
+.images {
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slideImages {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/*estilos para tarjeta de fundador*/
+
+.fundador {
+  width: 850px;
+  height: 450px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.fundador {
+  padding: 1rem;
+  border-radius: 30px;
+  display: flex;
+  @apply bg-gray-50;
+}
+
+.image-fundador {
+  width: 18rem;
+  padding: 1rem;
+  display: flex;
+  margin: 0;
+}
+
+.image {
+  @apply bg-zinc-200;
+  width: 80%;
+  height: 60%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 60%;
+  background-image: url("/proyecto/IMG-20240124-WA0007.jpg");
+}
+
+.infundador {
+  width: 400px;
+  height: 450px;
+  @apply text-stone-950;
+}
+
+/*estilos para formulario voluntariados*/
+.formulario_voluntariado {
+  width: 1200px;
+  height: 1200px;
+  padding: 10px;
+  @apply bg-slate-600
+}

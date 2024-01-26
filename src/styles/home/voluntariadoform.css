@@ -1,0 +1,35 @@
+/* Estilos CSS */
+.content_form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc; /* Cambia el color de fondo a gris */
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputs_form {
+  color: #333; /* Cambia el color del texto a negro */
+}
+
+.file-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.file-input-container input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
